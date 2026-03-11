@@ -27,4 +27,3 @@ else
 fi
 make-aur-package "$package"
 pacman -Q "$package" | awk '{print $2; exit}' > ~/version
-find / \( -name "odasrv" -o -name "odamex" -o -name "odalaunch" -o -name "*.desktop" \) 2>/dev/null

@@ -17,7 +17,7 @@
 
 </div>
 
-### ⚠️ Place WADs inside `~/.local/share/odamex` and in settings change `Odamex Path` to this same location ⚠️
+### ⚠️ Place WADs inside `~/.odamex` and in settings change `Odamex Path` to this same location ⚠️
 
 ---
 

@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/odamex/odamex/refs/heads/stable/media/icon_odalaunch_512.png
 export DESKTOP=https://raw.githubusercontent.com/odamex/odamex/refs/heads/stable/packaging/linux/net.odamex.Odamex.Launcher.desktop
+export APPNAME=Odamex
 export DEPLOY_QT=1
 
 # Deploy dependencies

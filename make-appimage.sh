@@ -13,7 +13,7 @@ export DESKTOP=https://raw.githubusercontent.com/odamex/odamex/refs/heads/stable
 export DEPLOY_QT=1
 
 # Deploy dependencies
-quick-sharun usr/bin/odalaunch usr/bin/odamex usr/bin/odasrv #/usr/share/odamex/*
+quick-sharun /usr/local/bin/* #/usr/share/odamex/*
 
 # Additional changes can be done in between here
 

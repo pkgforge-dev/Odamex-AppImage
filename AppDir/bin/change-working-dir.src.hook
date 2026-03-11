@@ -1,0 +1,6 @@
+#!/bin/false
+dir=${XDG_DATA_HOME:-~/.local/share}/odamex
+mkdir -p "$dir"
+ln -sf "$APPDIR"/bin/odemax "$dir"
+ln -sf "$APPDIR"/bin/odasvr "$dir"
+cd "$dir"

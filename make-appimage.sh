@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/odalaunch.desktop
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /usr/local/bin/*
+quick-sharun usr/bin/odalaunch usr/bin/odamex usr/bin/odasrv
 
 # Additional changes can be done in between here
 

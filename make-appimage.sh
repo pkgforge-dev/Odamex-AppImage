@@ -11,9 +11,10 @@ export ICON=https://raw.githubusercontent.com/odamex/odamex/refs/heads/stable/me
 export DESKTOP=https://raw.githubusercontent.com/odamex/odamex/refs/heads/stable/packaging/linux/net.odamex.Odamex.Launcher.desktop
 export APPNAME=Odamex
 export DEPLOY_QT=1
+export QT_DIR=qt5
 
 # Deploy dependencies
-quick-sharun /usr/bin/odalaunch /usr/bin/odamex /usr/bin/odasrv #/usr/share/odamex/*
+quick-sharun /usr/bin/odalaunch /usr/bin/odamex /usr/bin/odasrv
 
 # Additional changes can be done in between here
 
